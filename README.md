@@ -1,1 +1,1 @@
-# metricalia
+See [http://criticaldias.net/](http://criticaldias.net/)
