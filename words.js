@@ -144,7 +144,7 @@ function displayData() {
     .join("rect")
     .attr("x", width / 2 - 10)
     .attr("y", d => y(d))
-    .attr("fill", "#FF69B4")
+    .attr("fill", "#6A06ED")
     .attr("width", 30)
     .attr("height", 10);
 }
