@@ -6,7 +6,7 @@ const state = loadState() || {
   "France": 0,
   "Britain": 0,
   "Italy": 0,
-  "Spain": 0,
+  "Catalunya": 0,
   cost: 0,
   useStorage: false
 };
@@ -36,7 +36,7 @@ d3.csv("ALGORITHM.csv", row => ({
   "France": +row["France"],
   "Britain": +row["Britain"],
   "Italy": +row["Italy"],
-  "Spain": +row["Spain"],
+  "Catalunya": +row["Catalunya"],
   cost: +row["cost in €"]
 })).then(renderWords);
 
